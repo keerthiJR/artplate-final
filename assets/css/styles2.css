@@ -8,16 +8,33 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-.abc{
+
+#SevenInch,#TenInch{
+  width:80px;
+  height: 40px;
+}
+.body_inner{
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.abc{
+  margin-top:20px;
+  display: flex;
+  justify-content: space-between;
   
+}
+.size-btn{
+  display: flex;
 }
 body {
     font-family: "Open Sans", sans-serif;
     /*background: #0c0b09;*/
     color: #fff;
+    overflow-x: hidden;
   }
-  
+
   a {
     color: #cda45e;
     text-decoration: none;

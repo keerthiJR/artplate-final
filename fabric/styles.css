@@ -10,7 +10,7 @@ body{
   background-color: blue;
 }
 .lower-canvas{
-  left: 44% !important;
+  left: 43% !important;
   width: 800px  !important;
   height: 450px !important;
 z-index: -1 !important;
